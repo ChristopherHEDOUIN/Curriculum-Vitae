@@ -3,90 +3,74 @@
     <head>
         <!--En-tête de la page -->
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="StyleCV.css"
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=almendra:400,400i,700,700i" rel="stylesheet" />
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="StyleCV.css">
     </head>
 
     <body>
-        <div id="bloc_page_cv">
-                <header>
-                    <div id="Titre_Principale_cv">
-                        <div id="nom">
-                            <h1>- Christopher HEDOUIN -</h1>
-                        </div>
-                        <h2>Developpeur Web</h2>
-                        <p>Actuellement à la recherche d'une alternance pour une reconversion professionelle.</p>
-                    </div>
+        <div class="body">
+                <header class="header__principale">                
+                        <h1 class="header__title">- Christopher HÉDOUIN -<br>Développeur Web Étudiant</h1>
+                        <p class="header__paragraph">Actuellement à la recherche d'une alternance pour un poste de développeur web et mobile.</p>
                 </header>
             
+                <section class="section">
+                    <article class="experience__pro">
+                        <h3 class="article__title__3">Expériences Professionnelles</h3>
 
-            <section>
-                <article>
-                    <div id="Experience_Pro">
-                        <h3>Expériences Professionnelles</h3>
-                     
-                        <h5>02/2018 - 08/2018 : LVL Medical</h5>
-                        <h4>TECHNICIEN SUIVI RESPIRATOIRE</h4>
-                        <p>Technicien de suivi respiratoire : passage a domicile et installation de machine d'aide apnée du sommeil.</p>
-                        <h5>11/2017 - 01/2018 : TOUPARGEL</h5>
-                        <h4>CHAUFFEUR LIVREUR</h4>
-                        <p>Livraison a domicile de produits surgelés et frais</p>
-                        <h5>10/2016 - 08/2017 : ELIA MEDICAL</h5>
-                        <h4>TECHNICIEN EQUIPEMENT OXYGENE</h4>
-                        <p>
-                            Installation déquipement médical au domicile des patients.
-                            Livraison régulière de matériel médical. Collecter l'ensemble des renseignements administratifs
-                            Nécessaires permettant de tenir le dossier. Entretien et réapprovisionnement du matériel.
-                        </p>
-                        <h5>02/2015 - 08/2016 : O.G.F</h5>
-                        <h4>PORTEUR / CHAUFFEUR</h4>
-                        <p>
-                            Conducteur de véhicule funéraire. Occupation diverse lier au funéraire. Maitre de cérémonie.
-                        </p>
-                    </div>
-                     <div id="Formations">   
-                        <h3>FORMATIONS</h3>
+                            <h4 class="article__title__4">TECHNICIEN SUIVI RESPIRATOIRE</h4>
+                            <h5 class="article__title__5">02/2018 - 08/2018 : LVL Medical</h5>
+                            <p class="paragraph__article">Technicien de suivi respiratoire : passage a domicile et installation de machine d'aide apnée du sommeil.</p>
+                            
+                            <h4 class="article__title__4">CHAUFFEUR LIVREUR</h4>
+                            <h5 class="article__title__5">11/2017 - 01/2018 : TOUPARGEL</h5>
+                            <p class="paragraph__article">Livraison a domicile de produits surgelés et frais</p>
+                            
+                            <h4 class="article__title__4">TECHNICIEN EQUIPEMENT OXYGENE</h4>
+                            <h5 class="article__title__5">10/2016 - 08/2017 : ELIA MEDICAL</h5>
+                            <p class="paragraph__article">Installation déquipement médical au domicile des patients. Livraison régulière de matériel médical. Collecter l'ensemble des renseignements administratifs. Nécessaires permettant de tenir le dossier. Entretien et réapprovisionnement du matériel.</p>
+                                
+                            <h4 class="article__title__4">PORTEUR / CHAUFFEUR</h4>
+                            <h5 class="article__title__5">02/2015 - 08/2016 : O.G.F</h5>
+                            <p class="paragraph__article">Conducteur de véhicule funéraire. Occupation diverse lier au funéraire. Maitre de cérémonie.</p>               
+                    </article>
+                    <article class="formations">   
+                        <h3 class="article__title__3">formation</h3>
+                            <h4 class="article__title__4">O'Clock Formations</h4>
+                            <p class="paragraph__article">6 mois pour devenir développeur web</p>
+
+                            <h4 class="article__title__4">BTS IRIS - en 2012</h4>
+                            <p class="paragraph__article">Informatique et Réseaux pour l'Industrie et les Services Techniques</p>
+                            
+                            <h4 class="article__title__4">BAC - STI électronique - en 2010</h4> 
+                            <p class="paragraph__article">Sciences et Technologies Industrielles - Electronique</p> 
+                            
+                                <aside class="aside__me">
+                                    <h4 class="aside__title">adresse</h4>
+                                    <p class="aside__article"> 19 route de carquefou 44300 Nantes<br> christopher.hedouin@gmail.com<br> 06.33.20.92.93</p>
                     
-                        <h4>BTS IRIS - en 2012</h4>
-                        <p>Informatique et Réseaux pour l'Industrie et les Services Techniques</p>
-                        <h4>BAC - STI électronique - en 2012</h4> 
-                        <p>Sciences et Technologies Industrielles - Electronique</p>  
-                    </div>               
-                </article>
-                <aside>
-                    <img src="ImgCV/flecheblanchedroite.png" alt="" id="flecheblanche">
-                    <h3>Adresse</h3>
-                    <p>
-                        7 CHEMIN DE LA JUSTICE<br/>
-                        44000 Nantes<br/>
-                        chris.hedouin@lilo.org
-                    </p>
-                    <h3>Langues</h3>
-                    <p>
-                        Anglais : En cours de formation.<br/>
-                        Espagnol : Débutant.
-                    </p>
-                    <h3>Compétences</h3>
-                    <p>
-                        <ul>
-                            <li> Autonomie.</li>
-                            <li> Capacité D'apprendre.</li>
-                            <li> Prise de recul.</li>
-                            <li> Gestion du stresse.</li>
-                        </ul>
-                    </p>
-                    <h3>Permis</h3>
-                    <p>
-                        B-Vehicules Léger.
-                    </p>
-                    <h3>Centre d'intérêt</h3>
-                    <p>
-                        Crossfit.
-                    </p>
-
-                </aside>
+                                    <h4 class="aside__title">langues</h4>
+                                    <p class="aside__article">Anglais: débutant<br> Espagnol: débutant</p>
+                    
+                                    <h4 class="aside__title">Compétences</h4>
+                                    <p class="aside__article">Autonomie.<br> Sens de l'organisation.<br> Prise de recul.<br> Gestion du stress.<br> Capacité d'adaptation.</p>
+                    
+                                    <h4 class="aside__title">Parmis</h4>
+                                    <p class="aside__article">B - Véhicule léger</p>
+                    
+                                    <h4 class="aside__title">Centres d'intérêt</h4>
+                                    <p class="aside__article">Comics.<br> Jeux vidéo.<br> Crossfit.<br> Lecture.</p>
+                                </aside>
+                    </article>
             </section>
-            <footer>
-                <a href="../Site.html">Acceuil du site</a>
+            
+            <footer class="footer__cv">
+                <a class="footer__back" href="../Site.html">Acceuil du site</a>
+                <a class="twitter__lien" href="https://twitter.com/Chriso44300" target="_blank" alt="TwitterLogo"><img class="twitter__img" src="ImgCV/Twitter-logo-1.jpg" alt="twitterprofil"></a>
+                <a class="linkedin__lien" href="https://www.linkedin.com/in/christopher-hedouin/" target="_blank" alt="LinkedinLogo"><img class="linkedin__img" src="ImgCV/LinkedIn-logo.jpg" alt="linkedinprofil"></a>
+
             </footer>
         </div>
     </body>
