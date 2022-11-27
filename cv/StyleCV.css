@@ -57,6 +57,7 @@
     left: 10%;
     background-color: var(--color);
     padding: 5px 5px;
+    padding-left: 15px;
     margin-top: 10%;
     border-radius: 15px;
     color: white;
